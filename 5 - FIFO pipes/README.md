@@ -1,0 +1,121 @@
+# Autor: Piotr Burdzy,  
+### Krakow, 23.03.2021
+
+
+##  Zawartosc: 
+
+### I.
+Problem ,,Producenta i konsumenta" zaimplementowany przy pomocy potoków nazwanych. Tworzy z poziomu programu
+potok FIFO a następnie uruchamia procesy Producenta i Konsumenta. Dodatkowo usuwa potok na zakończenie działania
+programu.
+
+
+### Program składa się z trzech modułów:  
+1) glowny.c
+2) producent.c
+3) konsument.c
+### Dodatkowo domyslnie do odczytu i zapisu:
+#### surowiec.txt - od odczytu
+#### wyn.txt - do zapisu
+
+
+
+### II.
+Tworzy potok FIFO z linii komend oraz uruchamia procesy Producenta i Konsumenta niezależnie z poziomu powkłoki.
+
+
+### Program składa się z dwóch modułów:
+1) prod5b.c
+2) kon.c
+
+### !Przed uruchomiem trzeba wpisac na powloce "export DISPLAY=:0"!
+
+### Dodatkowo domyslnie do odczytu i zapisu:
+#### surowiec.txt - od odczytu
+#### wyn.txt - do zapisu
+
+
+
+
+
+##	Komendy:
+### Do uruchamiania programu:
+
+### I program:
+	make run1 ARG1=argv[1] ARG2=argv[2] ARG3=argv[3]
+### II program:
+    make run2 ARG1=argv[1] ARG2=argv[2] ARG3=argv[3]
+
+#### ARG1 - potok
+#### ARG2 - plik do odczytu
+#### ARG3 - plik do zapisu     
+
+
+### -> Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac:
+       make clean
+
+### -> W celu archiwizacji oraz kompresji katalogu nalezy wykonac:
+       make tar
+       
+
+
+##
+<h1 align="center">ENGLISH TRANSLATION</h1>
+
+
+# Author: Piotr Burdzy,  
+### Krakow, 23.03.2021
+
+
+##  Content: 
+
+### I.
+"Producer and consumer" problem implemented with named pipes (FIFO pipes). It creates FIFO pipe from shell,
+and then it runs Producer and consumer processes. Additionally deletes pipe at the end of the program.
+
+### Program contains:  
+1) glowny.c
+2) producent.c
+3) konsument.c
+### Additionaly, default files to read and to write
+#### surowiec.txt - to read
+#### wyn.txt - to write
+
+
+
+### II.
+Creates FIFO PIPE from command line and starts processes of Producer and Consumer
+Tworzy potok FIFO z linii komend oraz uruchamia procesy Producenta i Konsumenta independently from the shell.
+
+
+### Program contains:
+1) prod5b.c
+2) kon.c
+
+### Must be typed on the shell before running: "export DISPLAY=:0"!
+
+### Additionaly, default files to read and to write
+#### surowiec.txt - to read
+#### wyn.txt - to write
+
+
+
+##	Commands:
+### Running program:
+
+### I program:
+	make run1 ARG1=argv[1] ARG2=argv[2] ARG3=argv[3]
+### II program:
+    make run2 ARG1=argv[1] ARG2=argv[2] ARG3=argv[3]
+
+#### ARG1 - pipe
+#### ARG2 - file to read
+#### ARG3 - file to write     
+
+
+### In order to clean the contents of the directory (remove unnecessary files):
+       make clean
+
+### In order to archive and compress the directory:
+       make tar
+
