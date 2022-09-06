@@ -71,6 +71,7 @@ potomny staje się liderem swojej własnej grupy procesów.
 ### V program:
 	make run5
 
+## 
 
 <h1 align="center">
 ENGLISH TRANSLATION
