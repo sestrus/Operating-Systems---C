@@ -1,5 +1,6 @@
 
-# Autor: Piotr Burdzy,                                                                     Krakow, 23.03.2021
+# Autor: Piotr Burdzy,
+### Krakow, 23.03.2021
 
 
 
@@ -77,7 +78,8 @@ potomny staje się liderem swojej własnej grupy procesów.
 ENGLISH TRANSLATION
 </h1>
 
-# Author: Piotr Burdzy,                                                                     Krakow, 23.03.2021
+# Author: Piotr Burdzy,
+### Krakow, 23.03.2021
 
 
 ## Content:
