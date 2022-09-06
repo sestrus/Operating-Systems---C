@@ -1,0 +1,70 @@
+
+============================================================================================================
+Autor: Piotr Burdzy,                                                                     Krakow, 23.03.2021
+============================================================================================================
+
+
+=============
+ Zawartosc: 
+=============
+
+=============================================================================================================
+I.
+Program realizuje wzajemne wykluczanie procesów przy pomocy semaforów nazwanych.
+powielacz.c - tworzy semafor oraz na końcu usuwa go, powiela procesy realizujace 
+wzajemne wykluczanie. Dodatkowo tworzy plik numerek.txt i wpisuje w nim wartość "0"
+
+wyklucz.c - realizuje wzajemne wykluczanie procesow, wypisuje odpowiednie komunikaty,
+oraz zwiększa w kazdej sekcji krytycznej liczbe w numerek.txt o 1.
+
+
+Program składa się z trzech modułów:  
+1) powielacz.c
+2) wyklucz.c
+Oraz biblioteki:
+1) mylib.c
+2) mylib.h
+
+Dodatkowo domyslnie do odczytu i zapisu:
+numerek.txt - plik txt do odczytywania oraz wpisywania numeru
+
+
+=============================================================================================================
+======================
+	Komendy:
+======================
+Do uruchamiania programu:
+
+I program:
+	make run1 ARG1=argv[1] ARG2=argv[2] ARG3=argv[3]
+
+
+
+-> Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac:
+       make clean
+
+-> W celu archiwizacji oraz kompresji katalogu nalezy wykonac:
+       make tar
+
+
+    *----------------------------------------*
+    |   ARG1 - ilosc procesow                |
+    |   ARG2 - ilosc sekcji krytycznych      |
+    |   ARG3 - nazwa programu z wykluczeniami|
+    *----------------------------------------*
+
+--------------------------------------------------------------------------------------------------------------
+==============================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+

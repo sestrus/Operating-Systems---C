@@ -1,0 +1,7 @@
+Ile procesow powstanie przy n-krotnym wywolaniu funkcji fork-exec jak w zalaczonym programie i dlaczego?
+
+
+
+Funkcja exec wykonuje podany w argumentach program czyli jest to proces potomny. Proces potomny wykonuje program zawarty w argumentach
+czyli nie jest juz kopia siebie samego (jak w zadaniu 1b), to oznacza ze proces potomny nie wchodzi w kolejna iteracje funkcji fork. Dlatego procesow 
+potomnych powstanie tyle ile jest iteracji. W tym przypadku powstana 4 procesy: macierzysty i 3 potomne.

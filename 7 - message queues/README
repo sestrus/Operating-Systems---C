@@ -1,0 +1,56 @@
+
+============================================================================================================
+Autor: Piotr Burdzy,                                                                     Krakow, 23.03.2021
+============================================================================================================
+
+
+=============
+ Zawartosc: 
+=============
+
+=============================================================================================================
+I.
+Kolejki komunikatów Klient serwer. Serwer tworzy swoją kolejkę do odczytu. Klient wysyła do niej swój PID razem
+z działaniem do wykonania oraz tworzy swoją kolejkę o nazwie /PID, do odczytu.Serwer wykonuje działanie i
+odsyła wynik do kolejki klienta
+
+
+Program składa się z dwóch modułów:  
+1) serwer.c
+2) klient.c
+Oraz biblioteki:
+1) lib.c
+2) lib.h
+
+=============================================================================================================
+======================
+	Komendy:
+======================
+Do uruchamiania programu:
+
+I program:
+	make run1
+
+
+
+-> Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac:
+       make clean
+
+-> W celu archiwizacji oraz kompresji katalogu nalezy wykonac:
+       make tar
+
+--------------------------------------------------------------------------------------------------------------
+==============================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+

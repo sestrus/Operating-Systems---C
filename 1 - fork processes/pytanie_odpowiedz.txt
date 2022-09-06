@@ -1,0 +1,2 @@
+ODPOWIEDŹ NA PYTANIE DO ĆWICZENIA:
+Ile procesów powstanie przy n-krotnym wywo laniu funkcji fork i dlaczego?

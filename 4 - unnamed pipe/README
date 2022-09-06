@@ -1,0 +1,64 @@
+
+============================================================================================================
+Autor: Piotr Burdzy,                                                                     Krakow, 23.03.2021
+============================================================================================================
+
+
+=============
+ Zawartosc: 
+=============
+
+=============================================================================================================
+I.
+    Problem ,,Producenta i konsumenta" zaimplementowany przy pomocy potoków nienazwanych. Producent pobiera 
+    surowiec z pliku tekstowego i wstawia go jako towar do potoku, natomiast Konsument umieszcza pobrany 
+    z potoku towar w innym pliku tekstowym.
+
+
+Program składa się z jednego modułu: 
+1) zad.c
+Dodatkowo domyslnie do odczytu i zapisu:
+surowiec.txt - od odczytu
+wyn.txt - do zapisu
+
+
+
+=============================================================================================================
+
+-------------------------------------------------------------------------------------------------------------
+
+=============================================================================================================
+======================
+	Komendy:
+======================
+Do uruchamiania programu:
+
+-> Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac:
+       make clean
+
+-> W celu archiwizacji oraz kompresji katalogu nalezy wykonac:
+       make tar
+
+
+    *----------------------------*
+    |   ARG1 - plik do odczytu   |
+    |   ARG2 - plik do zapisu    |
+    *----------------------------*
+
+I program:
+	make run1 ARG1=argv[1] ARG2=argv[2]
+--------------------------------------------------------------------------------------------------------------
+==============================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
