@@ -84,7 +84,7 @@ ENGLISH TRANSLATION
 ## I.
 Program that prints out identifiers UID, GID, PID, PPID, PGID for a given process
 
-### The program consists of one module:
+### The program contains:
 1) 1a.c
 
 
@@ -94,7 +94,7 @@ Program that prints out identifiers UID, GID, PID, PPID, PGID for processes: mot
 processes for the fork function called three times. Additionally, the parent process waits for child processes
 to terminate using the wait function.
 
-### The program consists of one module:
+### The program contains:
 1) 1b.c
 
 
@@ -104,7 +104,7 @@ Program that prints out identifiers UID, GID, PID, PPID, PGID for processes: mot
 processes for the fork function called three times, but mother process is waiting for completion
 child processesusing the sleep function. Additionally child processes are adapted by init process.
 
-### The program consists of one module:
+### The program contains:
 1) 1c.c
 
 
@@ -115,7 +115,7 @@ processes for the fork function called three times. Additionally processes appea
 the oldest to the youngest, and mother process waits for every child process termination.
 
 
-### The program consists of one module:
+### The program contains:
 1) 1d.c
 
 
@@ -125,7 +125,7 @@ Program that prints out identifiers UID, GID, PID, PPID, PGID for processes: mot
 processes for the fork function called three times. Additionally, using setpgid function every child process
 becomes a leader of its own process group. 
 
-### The program consists of one module:
+### The program contains:
 1) 1e.c
 
 
