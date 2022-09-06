@@ -13,9 +13,9 @@ z potoku towar w innym pliku tekstowym.
 ### Program składa się z jednego modułu: 
 1) zad.c
 
-### Dodatkowo domyslnie do odczytu i zapisu:
-surowiec.txt - od odczytu
-wyn.txt - do zapisu
+### Dodatkowo domyslnie do odczytu i zapisu
+#### surowiec.txt - od odczytu
+#### wyn.txt - do zapisu
 
 
 
@@ -28,8 +28,8 @@ Do uruchamiania programu:
 	make run1 ARG1=argv[1] ARG2=argv[2]
   
   
-ARG1 - plik do odczytu 
-ARG2 - plik do zapisu  
+#### ARG1 - plik do odczytu 
+#### ARG2 - plik do zapisu  
 
 
 ### -> Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac:
@@ -56,8 +56,8 @@ pipe to another text file
 1) zad.c
 
 ### Additionaly, default files to read and to write
-surowiec.txt - to read
-wyn.txt - to write
+#### surowiec.txt - to read
+#### wyn.txt - to write
 
 
 
@@ -70,8 +70,8 @@ Program running:
 	make run1 ARG1=argv[1] ARG2=argv[2]
   
   
-ARG1 - file to read 
-ARG2 - file to write  
+#### ARG1 - file to read 
+#### ARG2 - file to write  
 
 
 ### -> In order to clean the contents of the directory (remove unnecessary files):
